@@ -219,3 +219,23 @@ footer nav a {
     border-bottom: 1px dashed black;
     padding: 2%;
 }
+
+.learnMoreContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.infoBox {
+    width: calc(50% - 1em);
+    border-bottom: 1px dashed black;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 2.5px;
+    width: 8em;
+    text-align: center;
+}
