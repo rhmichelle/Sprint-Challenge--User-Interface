@@ -224,12 +224,13 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 2em;
+    padding: 2em 0 2em 0;
 }
 
 .infoBox {
     width: calc(50% - 1em);
     border-bottom: 1px dashed black;
+    padding: 1em 0 1em 0;
 }
 
 .button {
@@ -238,4 +239,9 @@ footer nav a {
     padding: 2.5px;
     width: 8em;
     text-align: center;
+    margin: 1em 1em 0 0;
+}
+
+.together {
+    padding-bottom: 2em;
 }
