@@ -74,6 +74,17 @@ header {
     padding-bottom: 2em;
 }
 
+nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
