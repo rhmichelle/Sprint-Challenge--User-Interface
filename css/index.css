@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 1% 4% 0 4%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,8 +67,11 @@ p {
     line-height: 1.4;
 }
 
-nav ul {
+header {
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 2em;
 }
 
 .container {
