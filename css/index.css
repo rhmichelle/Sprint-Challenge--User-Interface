@@ -66,6 +66,10 @@ p {
     line-height: 1.4;
 }
 
+nav ul {
+    display: flex;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
