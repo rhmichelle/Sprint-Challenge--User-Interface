@@ -76,7 +76,7 @@ header {
 
 nav {
     display: flex;
-    width: 60%;
+    width: 80%;
     justify-content: space-evenly;
 }
 
@@ -230,6 +230,7 @@ footer nav a {
 .infoBox {
     width: calc(50% - 1em);
     border-bottom: 1px dashed black;
+    margin: 0 .5em;
     padding: 1em 0 1em 0;
 }
 
