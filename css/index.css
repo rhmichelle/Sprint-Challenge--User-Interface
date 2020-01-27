@@ -140,7 +140,8 @@ nav a {
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 8%;
+    margin-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
