@@ -276,6 +276,52 @@ footer nav a {
 
 
 
+/*************************** Contact Page ***************************/
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.contactHeaderImg {
+    width: 38rem;
+    height: auto;
+    margin-right: 2rem;
+}
+
+form {
+    width: 500px;
+    height: 400px;
+    margin-top: 4rem;
+}
+
+input {
+    width: 50%;
+    margin-bottom: .5rem;
+}
+
+textarea {
+    width: 75%;
+    min-height: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*************************** Keyframes ***************************/
