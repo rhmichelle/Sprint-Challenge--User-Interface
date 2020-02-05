@@ -133,6 +133,7 @@ nav a {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -153,6 +154,11 @@ nav a {
 #box1 {
     background-color: teal;
 }
+
+        #box1:hover {
+            animation: colorChange 2s infinite;
+        }
+
 
 #box2 {
     background-color: gold;
@@ -181,6 +187,10 @@ nav a {
 #box8 {
     background-color: hotpink;
 }
+
+        #box8:hover {
+            animation: pinkColorChange 2s infinite;
+        }
 
 #box9 {
     background-color: indigo;
@@ -259,4 +269,80 @@ footer nav a {
 
 .together {
     padding-bottom: 2em;
+}
+
+
+
+
+
+
+/*************************** Contact Page ***************************/
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.contactHeaderImg {
+    width: 38rem;
+    height: auto;
+    margin-right: 2rem;
+}
+
+form {
+    width: 500px;
+    height: 400px;
+    margin-top: 4rem;
+}
+
+input {
+    width: 50%;
+    margin-bottom: .5rem;
+}
+
+textarea {
+    width: 75%;
+    min-height: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************** Keyframes ***************************/
+
+
+@keyframes colorChange {
+    0% {
+        background-color: teal;
+    }
+
+    100% {
+        background-color: #2BFFE6;
+    }
+}
+
+@keyframes pinkColorChange {
+    0% {
+        background-color: hotpink;
+    }
+
+    100% {
+        background-color: #80345A;
+    }
 }
